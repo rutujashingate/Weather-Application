@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is description of this page.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+    <title>Weather Application</title>
+</head>
+
+<body>
+    <div class="card">
+        <!-- <h1>Check Weather In Any City</h1> -->
+        <div class="search">
+            <input class="search-bar" type="text">
+            <button id="button"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em"
+                    width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z"
+                        clip-rule="evenodd"></path>
+                    <path fill-rule="evenodd"
+                        d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"
+                        clip-rule="evenodd"></path>
+                </svg></button>
+        </div>
+        <div class="weather loading">
+            <h2 class="city">Weather in Pune</h2>
+            <div class="temperature">50C</div>
+            <img class="icon" src="" alt="">
+            <div class="description">Cloudy</div>
+            <div class="humidity">Humidity</div>
+            <div class="wind">50 km/hr.</div>
+        </div>
+    </div>
+
+    <!-- History -->
+    <div class="past" id="past_all">
+        <div class="past1" id="past_1">
+            <h2 class="history1city">Weather in Pune</h2>
+            <div class="history1temperature">50C</div>
+            <img class="history1icon" src="" alt="">
+            <div class="history1description">Cloudy</div>
+            <div class="history1humidity">Humidity</div>
+            <div class="history1wind">50 km/hr.</div>
+        </div>
+        <div class="past2" id="past_2">
+            <h2 class="history2city">Weather in Pune</h2>
+            <div class="history2temperature">50C</div>
+            <img class="history2icon" src="" alt="">
+            <div class="history2description">Cloudy</div>
+            <div class="history2humidity">Humidity</div>
+            <div class="history2wind">50 km/hr.</div>
+        </div>
+        <div class="past3" id="past_3">
+            <h2 class="history3city">Weather in Pune</h2>
+            <div class="history3temperature">50C</div>
+            <img class="history3icon" src="" alt="">
+            <div class="history3description">Cloudy</div>
+            <div class="history3humidity">Humidity</div>
+            <div class="history3wind">50 km/hr.</div>
+        </div>
+    </div>
+</body>
